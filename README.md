@@ -1,2 +1,2 @@
-# react-init
-Simple Boiler Plate to kick start with "react"
+# Star-war-app
+Simple User Login and filter/ search planet app
