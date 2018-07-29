@@ -1,0 +1,133 @@
+#root{
+    display: flex;
+    flex-direction: column;
+    background: #E8F5E9;
+    max-width: 80vw;
+    min-height: 100vh;
+    margin: 0 auto;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    position:relative;
+}
+.app{
+    width: 100%;
+    margin-top: 0;
+    position: relative;
+}
+.login-widget {
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 30px;
+    background: #90CAF9;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1{
+  color: #795548;
+}
+
+input {
+clear:both;
+  padding: 10px;
+min-width:280px;
+margin-bottom: 15px;
+border: none;
+box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+
+button{
+    background: #ff7f50;
+    box-shadow: 0px 6px rgba(228, 69, 11, 0.8);
+    border-radius: 8px 8px 6px 6px;
+    padding: 12px;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight:600;
+    transition: all 0.2s ease;
+    position: relative;
+    min-width: 120px;
+}
+button:hover {
+    background: #e4450b;
+    box-shadow: 0px 4px rgba(156, 47, 7, 0.8);
+}
+button:active{
+    box-shadow: 0px 0px rgba(156, 47, 7, 0.8);
+    top: 3px; 
+}
+
+.sign-out{
+  position: absolute;
+  right: 10px;
+  top: -10px;
+  max-width: 70px;
+  font-size: 15px;
+  height: 40px;
+  text-align: center;
+  line-height: 1px;
+  border-radius: 100%;
+}
+.sign-out:active{
+    top:-7px;
+}
+
+ul{
+    list-style-type: none; 
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.loading {
+    min-height: 500px;
+}
+.loading div{
+    border: 16px solid #f3f3f3; 
+    border-top: 16px solid #3498db;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 2s linear infinite;
+    position: absolute;
+    top: 34%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+ul li{
+    border: 2px solid #795548;
+    padding: 15px;
+    background:#E1BEE7;
+    font-weight: 400;
+    margin-bottom: 12px
+}
+.filter-wrap {
+    position: relative;
+    top: 15px;
+}
+
+.header{
+    position: relative;
+    margin-bottom: 40px;
+    top:0;
+}
+
+
+
